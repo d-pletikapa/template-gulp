@@ -14,7 +14,7 @@ import gulppug from 'gulp-pug';
 import prettyHtml from 'gulp-pretty-html';
 
 // css
-import sass from 'sass';
+import * as sass from 'sass'
 import gulpSass from 'gulp-sass';
 const compSass = gulpSass(sass);
 
